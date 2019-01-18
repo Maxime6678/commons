@@ -23,7 +23,6 @@
     "typedoc-plugin-markdown": "^1.1.21"
   },
   "devDependencies": {
-    "typedoc": "^0.14.2",
-    "typedoc-markdown-theme": "0.0.4"
+    "typedoc": "^0.14.2"
   }
 }

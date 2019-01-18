@@ -29,7 +29,7 @@ Use this as extends for create a event more easiest.
 
 ▸ **execute**(client: *`Redis.Redis`*): `function`
 
-*Defined in Redis.ts:303*
+*Defined in [Redis.ts:283](https://github.com/Maxime6678/commons/blob/6d85187/src/Redis.ts#L283)*
 
 Execute when the event is trigged.
 *__abstract__*: 

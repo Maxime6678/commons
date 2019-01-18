@@ -109,8 +109,8 @@ export abstract class RedisBuilder {
     private password: string
     private port: number
     private database: number
-    private name: string
-    private instance: Redis.Redis
+    public readonly name: string
+    public readonly instance: Redis.Redis
     private subscribe: Map<string, SubscribeConstructor>
 
     /**
@@ -206,26 +206,6 @@ export abstract class RedisBuilder {
     public setex(key: Key, seconds: number, value: any, callback?: (err: Error, res: string | null) => void): void {
         if (this.type == RedisClientType.NORMAL) callback ? this.instance.setex(key, seconds, value, callback) : this.instance.setex(key, seconds, value)
         else callback(new Error('Subcriber instance cannot execute setex command !'), null)
-    }
-
-    /**
-     * Return the Redis instance
-     *
-     * @returns {Redis.Redis} Redis instance
-     * @memberof RedisBuilder
-     */
-    public getInstance(): Redis.Redis {
-        return this.instance
-    }
-
-    /**
-     * Return the name of instance
-     *
-     * @returns {string} Return the name
-     * @memberof RedisBuilder
-     */
-    public getName(): string {
-        return this.name
     }
 
     /**

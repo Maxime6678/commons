@@ -29,7 +29,7 @@ Use this as extends for create a event more easiest.
 
 ▸ **execute**(client: *`Discord.Client`*): `Function`
 
-*Defined in DiscordBot.ts:195*
+*Defined in [DiscordBot.ts:185](https://github.com/Maxime6678/commons/blob/6d85187/src/DiscordBot.ts#L185)*
 
 Execute when the event is trigged.
 *__abstract__*: 

@@ -63,8 +63,8 @@ import * as Discord from 'discord.js'
  */
 export abstract class BotConstructor {
 
-    private client: Discord.Client
-    private token: string
+    public readonly client: Discord.Client
+    public readonly token: string
     private commands: Map<string, CommandConstructor>
 
     /**
@@ -98,16 +98,6 @@ export abstract class BotConstructor {
      */
     public connect(): void {
         this.client.login(this.token)
-    }
-
-    /**
-     * Get the bot client of your bot
-     *
-     * @returns {Discord.Client} Return the bot client
-     * @memberof BotConstructor
-     */
-    public getClient(): Discord.Client {
-        return this.client
     }
 
     /**
