@@ -29,7 +29,7 @@ Use this as extends for create a subcribe more easiest.
 
 ▸ **execute**(client: *`Redis.Redis`*, data: *`string`*): `void`
 
-*Defined in [Redis.ts:304](https://github.com/Maxime6678/commons/blob/6d85187/src/Redis.ts#L304)*
+*Defined in [Redis.ts:304](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Redis.ts#L304)*
 
 Execute when the channel is trigged.
 *__abstract__*: 

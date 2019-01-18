@@ -12,6 +12,7 @@ All my common classes for all my projects. Made in France with ❤
 
 * ["DiscordBot"](modules/_discordbot_.md)
 * ["Language"](modules/_language_.md)
+* ["LogChannel"](modules/_logchannel_.md)
 * ["Redis"](modules/_redis_.md)
 
 ---
