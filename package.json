@@ -1,0 +1,29 @@
+{
+  "name": "commons",
+  "version": "1.0.0",
+  "description": "All my common classes for all my projects. Made in France with ❤",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxime6678/commons.git"
+  },
+  "author": "Maxime6678",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maxime6678/commons/issues"
+  },
+  "homepage": "https://github.com/Maxime6678/commons#readme",
+  "dependencies": {
+    "@types/ioredis": "^4.0.4",
+    "discord.js": "^11.4.2",
+    "ioredis": "^4.3.0",
+    "typedoc-plugin-markdown": "^1.1.21"
+  },
+  "devDependencies": {
+    "typedoc": "^0.14.2",
+    "typedoc-markdown-theme": "0.0.4"
+  }
+}
