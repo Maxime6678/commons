@@ -52,7 +52,6 @@ export abstract class SocketBuilder {
 
     public readonly io: Socket.Server
     public readonly port: number
-    public readonly socket: Socket.Socket
     private events: Map<string, EventBuilder>
 
     /**

@@ -43,7 +43,7 @@ Use this as extends for create a Discord bot more easiest.
 
 ⊕ **new BotConstructor**(token: *`string`*): [BotConstructor](_discordbot_.botconstructor.md)
 
-*Defined in [DiscordBot.ts:68](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L68)*
+*Defined in [DiscordBot.ts:68](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L68)*
 
 Creates an instance of BotConstructor.
 *__memberof__*: BotConstructor
@@ -66,7 +66,7 @@ ___
 
 **● client**: *`Discord.Client`*
 
-*Defined in [DiscordBot.ts:66](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L66)*
+*Defined in [DiscordBot.ts:66](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L66)*
 
 ___
 <a id="commands"></a>
@@ -75,7 +75,7 @@ ___
 
 **● commands**: *`Map`<`string`, [CommandConstructor](_discordbot_.commandconstructor.md)>*
 
-*Defined in [DiscordBot.ts:68](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L68)*
+*Defined in [DiscordBot.ts:68](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L68)*
 
 ___
 <a id="token"></a>
@@ -84,7 +84,7 @@ ___
 
 **● token**: *`string`*
 
-*Defined in [DiscordBot.ts:67](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L67)*
+*Defined in [DiscordBot.ts:67](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L67)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 ▸ **connect**(): `void`
 
-*Defined in [DiscordBot.ts:99](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L99)*
+*Defined in [DiscordBot.ts:99](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L99)*
 
 Login the bot to the Discord world.
 *__memberof__*: BotConstructor
@@ -110,7 +110,7 @@ ___
 
 ▸ **onError**(client: *`Discord.Client`*, error: *`Error`*): `void`
 
-*Defined in [DiscordBot.ts:142](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L142)*
+*Defined in [DiscordBot.ts:142](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L142)*
 
 Execute when the bot trigger an error.
 *__abstract__*: 
@@ -133,7 +133,7 @@ ___
 
 ▸ **onReady**(client: *`Discord.Client`*): `void`
 
-*Defined in [DiscordBot.ts:132](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L132)*
+*Defined in [DiscordBot.ts:132](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L132)*
 
 Execute when the bot is ready.
 *__abstract__*: 
@@ -155,7 +155,7 @@ ___
 
 ▸ **registerCommand**(name: *`string`*, command: *[CommandConstructor](_discordbot_.commandconstructor.md)*): `void`
 
-*Defined in [DiscordBot.ts:110](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L110)*
+*Defined in [DiscordBot.ts:110](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L110)*
 
 Register a command for your bot.
 *__memberof__*: BotConstructor
@@ -176,7 +176,7 @@ ___
 
 ▸ **registerEvent**(name: *`string`*, event: *[EventConstructor](_discordbot_.eventconstructor.md)*): `void`
 
-*Defined in [DiscordBot.ts:121](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L121)*
+*Defined in [DiscordBot.ts:121](https://github.com/Maxime6678/commons/blob/72bac02/src/DiscordBot.ts#L121)*
 
 Register a event for your bot
 *__memberof__*: BotConstructor

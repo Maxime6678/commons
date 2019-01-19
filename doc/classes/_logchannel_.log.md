@@ -34,7 +34,7 @@ Create a instance of this just one time
 
 **● bot**: *[BotConstructor](_discordbot_.botconstructor.md)*
 
-*Defined in [LogChannel.ts:45](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L45)*
+*Defined in [LogChannel.ts:45](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L45)*
 
 ___
 <a id="channels"></a>
@@ -43,7 +43,7 @@ ___
 
 **● channels**: *`Map`<`String`, [LogChannel](_logchannel_.logchannel.md)>*
 
-*Defined in [LogChannel.ts:46](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L46)*
+*Defined in [LogChannel.ts:46](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L46)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **registerLogChannel**(name: *`string`*, logChannel: *[LogChannel](_logchannel_.logchannel.md)*): `void`
 
-*Defined in [LogChannel.ts:64](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L64)*
+*Defined in [LogChannel.ts:64](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L64)*
 
 Register a channel for log
 *__memberof__*: Log
@@ -76,7 +76,7 @@ ___
 
 ▸ **sendLogChannel**(name: *`string`*, data: *`any`*): `void`
 
-*Defined in [LogChannel.ts:75](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L75)*
+*Defined in [LogChannel.ts:75](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L75)*
 
 Send a log to a channel
 *__memberof__*: Log
@@ -97,7 +97,7 @@ ___
 
 ▸ **setClient**(bot: *[BotConstructor](_discordbot_.botconstructor.md)*): `void`
 
-*Defined in [LogChannel.ts:53](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L53)*
+*Defined in [LogChannel.ts:53](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L53)*
 
 Set the BotConstructor instance
 *__memberof__*: Log

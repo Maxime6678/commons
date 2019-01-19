@@ -29,7 +29,7 @@ Use this as extends for create a Socket.io event more easiest.
 
 ▸ **execute**(io: *`Socket.Server`*): `function`
 
-*Defined in Socket.ts:122*
+*Defined in [Socket.ts:121](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L121)*
 
 Execute when the event is trigged.
 *__abstract__*: 

@@ -24,7 +24,7 @@ NORMAL: Use this for an account for get/set/setex. SUBSCRIBER: Use this for an a
 
 **NORMAL**: 
 
-*Defined in [Redis.ts:95](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L95)*
+*Defined in [Redis.ts:95](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L95)*
 
 ___
 <a id="subscriber"></a>
@@ -33,7 +33,7 @@ ___
 
 **SUBSCRIBER**: 
 
-*Defined in [Redis.ts:95](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L95)*
+*Defined in [Redis.ts:95](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L95)*
 
 ___
 

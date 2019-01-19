@@ -23,7 +23,7 @@
 
 **Ƭ LogData**: *`string` | `Discord.RichEmbed` | `Discord.MessageAttachment`*
 
-*Defined in [LogChannel.ts:35](https://github.com/Maxime6678/commons/blob/165f217/src/LogChannel.ts#L35)*
+*Defined in [LogChannel.ts:35](https://github.com/Maxime6678/commons/blob/72bac02/src/LogChannel.ts#L35)*
 
 Installation: npm install discord.js
 

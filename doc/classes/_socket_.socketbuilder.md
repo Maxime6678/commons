@@ -24,7 +24,6 @@ Use this as extends for create a Socket.io server more easiest.
 * [events](_socket_.socketbuilder.md#events)
 * [io](_socket_.socketbuilder.md#io)
 * [port](_socket_.socketbuilder.md#port)
-* [socket](_socket_.socketbuilder.md#socket)
 
 ### Methods
 
@@ -42,7 +41,7 @@ Use this as extends for create a Socket.io server more easiest.
 
 ⊕ **new SocketBuilder**(port: *`number`*): [SocketBuilder](_socket_.socketbuilder.md)
 
-*Defined in Socket.ts:56*
+*Defined in [Socket.ts:55](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L55)*
 
 Creates an instance of SocketBuilder.
 *__memberof__*: SocketBuilder
@@ -65,7 +64,7 @@ ___
 
 **● events**: *`Map`<`string`, [EventBuilder](_socket_.eventbuilder.md)>*
 
-*Defined in Socket.ts:56*
+*Defined in [Socket.ts:55](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L55)*
 
 ___
 <a id="io"></a>
@@ -74,7 +73,7 @@ ___
 
 **● io**: *`Socket.Server`*
 
-*Defined in Socket.ts:53*
+*Defined in [Socket.ts:53](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L53)*
 
 ___
 <a id="port"></a>
@@ -83,16 +82,7 @@ ___
 
 **● port**: *`number`*
 
-*Defined in Socket.ts:54*
-
-___
-<a id="socket"></a>
-
-###  socket
-
-**● socket**: *`Socket.Socket`*
-
-*Defined in Socket.ts:55*
+*Defined in [Socket.ts:54](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L54)*
 
 ___
 
@@ -104,7 +94,7 @@ ___
 
 ▸ **listen**(): `void`
 
-*Defined in Socket.ts:74*
+*Defined in [Socket.ts:73](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L73)*
 
 Listen your Socket.io server to the world.
 *__memberof__*: SocketBuilder
@@ -118,7 +108,7 @@ ___
 
 ▸ **onReady**(): `void`
 
-*Defined in Socket.ts:101*
+*Defined in [Socket.ts:100](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L100)*
 
 Execute when the Socket.io server is ready.
 *__abstract__*: 
@@ -134,7 +124,7 @@ ___
 
 ▸ **registerEvent**(name: *`string`*, event: *[EventBuilder](_socket_.eventbuilder.md)*): `void`
 
-*Defined in Socket.ts:91*
+*Defined in [Socket.ts:90](https://github.com/Maxime6678/commons/blob/72bac02/src/Socket.ts#L90)*
 
 Register a event for Socket.io server
 *__memberof__*: SocketBuilder

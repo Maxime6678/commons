@@ -53,7 +53,7 @@ Use this as extends for create a Redis instance more easiest.
 
 ⊕ **new RedisBuilder**(type: *[RedisClientType](../enums/_redis_.redisclienttype.md)*, host: *`string`*, password: *`string`*, port: *`number`*, database: *`number`*, name: *`string`*): [RedisBuilder](_redis_.redisbuilder.md)
 
-*Defined in [Redis.ts:114](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L114)*
+*Defined in [Redis.ts:114](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L114)*
 
 Creates an instance of RedisBuilder.
 *__memberof__*: RedisBuilder
@@ -81,7 +81,7 @@ ___
 
 **● database**: *`number`*
 
-*Defined in [Redis.ts:111](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L111)*
+*Defined in [Redis.ts:111](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L111)*
 
 ___
 <a id="host"></a>
@@ -90,7 +90,7 @@ ___
 
 **● host**: *`string`*
 
-*Defined in [Redis.ts:108](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L108)*
+*Defined in [Redis.ts:108](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L108)*
 
 ___
 <a id="instance"></a>
@@ -99,7 +99,7 @@ ___
 
 **● instance**: *`Redis.Redis`*
 
-*Defined in [Redis.ts:113](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L113)*
+*Defined in [Redis.ts:113](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L113)*
 
 ___
 <a id="name"></a>
@@ -108,7 +108,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in [Redis.ts:112](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L112)*
+*Defined in [Redis.ts:112](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L112)*
 
 ___
 <a id="password"></a>
@@ -117,7 +117,7 @@ ___
 
 **● password**: *`string`*
 
-*Defined in [Redis.ts:109](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L109)*
+*Defined in [Redis.ts:109](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L109)*
 
 ___
 <a id="port"></a>
@@ -126,7 +126,7 @@ ___
 
 **● port**: *`number`*
 
-*Defined in [Redis.ts:110](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L110)*
+*Defined in [Redis.ts:110](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L110)*
 
 ___
 <a id="subscribe"></a>
@@ -135,7 +135,7 @@ ___
 
 **● subscribe**: *`Map`<`string`, [SubscribeConstructor](_redis_.subscribeconstructor.md)>*
 
-*Defined in [Redis.ts:114](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L114)*
+*Defined in [Redis.ts:114](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L114)*
 
 ___
 <a id="type"></a>
@@ -144,7 +144,7 @@ ___
 
 **● type**: *[RedisClientType](../enums/_redis_.redisclienttype.md)*
 
-*Defined in [Redis.ts:107](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L107)*
+*Defined in [Redis.ts:107](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L107)*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **connect**(): `void`
 
-*Defined in [Redis.ts:168](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L168)*
+*Defined in [Redis.ts:168](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L168)*
 
 Login the instance to the Redis server.
 *__memberof__*: RedisBuilder
@@ -170,7 +170,7 @@ ___
 
 ▸ **get**(key: *[Key](../modules/_redis_.md#key)*, callback: *`function`*): `void`
 
-*Defined in [Redis.ts:179](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L179)*
+*Defined in [Redis.ts:179](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L179)*
 
 Return the data for a key
 *__memberof__*: RedisBuilder
@@ -191,7 +191,7 @@ ___
 
 ▸ **getRedisParam**(): `Redis.RedisOptions`
 
-*Defined in [Redis.ts:152](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L152)*
+*Defined in [Redis.ts:152](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L152)*
 
 Return parameters for create redis instance.
 *__memberof__*: RedisBuilder
@@ -205,7 +205,7 @@ ___
 
 ▸ **onConnect**(instance: *`Redis.Redis`*): `any`
 
-*Defined in [Redis.ts:243](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L243)*
+*Defined in [Redis.ts:243](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L243)*
 
 Execute when the instance is connected.
 *__abstract__*: 
@@ -227,7 +227,7 @@ ___
 
 ▸ **onError**(instance: *`Redis.Redis`*, err: *`string`*): `any`
 
-*Defined in [Redis.ts:262](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L262)*
+*Defined in [Redis.ts:262](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L262)*
 
 Execute when the instance trigger an error
 *__abstract__*: 
@@ -250,7 +250,7 @@ ___
 
 ▸ **onReady**(instance: *`Redis.Redis`*): `any`
 
-*Defined in [Redis.ts:252](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L252)*
+*Defined in [Redis.ts:252](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L252)*
 
 Execute when the instance is ready.
 *__abstract__*: 
@@ -272,7 +272,7 @@ ___
 
 ▸ **registerEvent**(name: *`string`*, event: *[EventConstructor](_redis_.eventconstructor.md)*): `void`
 
-*Defined in [Redis.ts:218](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L218)*
+*Defined in [Redis.ts:218](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L218)*
 
 Register a event for your instance
 *__memberof__*: RedisBuilder
@@ -293,7 +293,7 @@ ___
 
 ▸ **registerSubscribe**(name: *`string`*, subcribe: *[SubscribeConstructor](_redis_.subscribeconstructor.md)*): `void`
 
-*Defined in [Redis.ts:229](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L229)*
+*Defined in [Redis.ts:229](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L229)*
 
 Register a event for your instance
 *__memberof__*: RedisBuilder
@@ -314,7 +314,7 @@ ___
 
 ▸ **set**(key: *[Key](../modules/_redis_.md#key)*, value: *`any`*, callback?: *`function`*): `void`
 
-*Defined in [Redis.ts:192](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L192)*
+*Defined in [Redis.ts:192](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L192)*
 
 Create a new row with key and data
 *__memberof__*: RedisBuilder
@@ -336,7 +336,7 @@ ___
 
 ▸ **setex**(key: *[Key](../modules/_redis_.md#key)*, seconds: *`number`*, value: *`any`*, callback?: *`function`*): `void`
 
-*Defined in [Redis.ts:206](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L206)*
+*Defined in [Redis.ts:206](https://github.com/Maxime6678/commons/blob/72bac02/src/Redis.ts#L206)*
 
 Create a new row with key and data for x seconds
 *__memberof__*: RedisBuilder
