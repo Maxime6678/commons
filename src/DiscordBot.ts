@@ -115,7 +115,7 @@ export abstract class BotConstructor {
      * Register a event for your bot
      *
      * @param {string} name The name of your event
-     * @param {EventConstructor} event Instance of Event class
+     * @param {EventConstructor} event Instance of EventBuilder class
      * @memberof BotConstructor
      */
     public registerEvent(name: string, event: EventConstructor): void {

@@ -35,7 +35,7 @@ Use this as extends for create a language system more easiest.
 
 ⊕ **new Language**(): [Language](_language_.language.md)
 
-*Defined in [Language.ts:46](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Language.ts#L46)*
+*Defined in [Language.ts:46](https://github.com/Maxime6678/commons/blob/165f217/src/Language.ts#L46)*
 
 Creates an instance of Language.
 *__memberof__*: Language
@@ -52,7 +52,7 @@ ___
 
 **● languages**: *`Map`<[Languages](../enums/_language_.languages.md), `any`>*
 
-*Defined in [Language.ts:46](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Language.ts#L46)*
+*Defined in [Language.ts:46](https://github.com/Maxime6678/commons/blob/165f217/src/Language.ts#L46)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **getLabel**(language: *[Languages](../enums/_language_.languages.md)*, identifier: *`string`*): `string`
 
-*Defined in [Language.ts:66](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Language.ts#L66)*
+*Defined in [Language.ts:66](https://github.com/Maxime6678/commons/blob/165f217/src/Language.ts#L66)*
 
 Get label from a specified language
 *__memberof__*: Language

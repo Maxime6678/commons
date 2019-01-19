@@ -28,7 +28,7 @@
 
 **Ƭ Key**: *`string` | `Buffer`*
 
-*Defined in [Redis.ts:85](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Redis.ts#L85)*
+*Defined in [Redis.ts:85](https://github.com/Maxime6678/commons/blob/165f217/src/Redis.ts#L85)*
 
 Installation: npm install ioredis @types/ioredis
 

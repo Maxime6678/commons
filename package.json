@@ -18,8 +18,10 @@
   "homepage": "https://github.com/Maxime6678/commons#readme",
   "dependencies": {
     "@types/ioredis": "^4.0.4",
+    "@types/socket.io": "^2.1.2",
     "discord.js": "^11.4.2",
     "ioredis": "^4.3.0",
+    "socket.io": "^2.2.0",
     "typedoc-plugin-markdown": "^1.1.21"
   },
   "devDependencies": {

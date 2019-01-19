@@ -24,7 +24,7 @@ FRENCH: Use this for french language ENGLISH: Use this for english language
 
 **ENGLISH**: 
 
-*Defined in [Language.ts:35](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Language.ts#L35)*
+*Defined in [Language.ts:35](https://github.com/Maxime6678/commons/blob/165f217/src/Language.ts#L35)*
 
 ___
 <a id="french"></a>
@@ -33,7 +33,7 @@ ___
 
 **FRENCH**: 
 
-*Defined in [Language.ts:35](https://github.com/Maxime6678/commons/blob/c4ee63e/src/Language.ts#L35)*
+*Defined in [Language.ts:35](https://github.com/Maxime6678/commons/blob/165f217/src/Language.ts#L35)*
 
 ___
 

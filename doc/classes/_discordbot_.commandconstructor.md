@@ -29,7 +29,7 @@ Use this as extends for create a bot command more easiest.
 
 ▸ **execute**(client: *`Discord.Client`*, message: *`Discord.Message`*, args: *`string`[]*): `any`
 
-*Defined in [DiscordBot.ts:164](https://github.com/Maxime6678/commons/blob/c4ee63e/src/DiscordBot.ts#L164)*
+*Defined in [DiscordBot.ts:164](https://github.com/Maxime6678/commons/blob/165f217/src/DiscordBot.ts#L164)*
 
 Execute when the command is trigged.
 *__abstract__*: 
